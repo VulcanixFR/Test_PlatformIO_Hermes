@@ -24,7 +24,7 @@ void setup() {
   Serial.printf("Flag HERMES_MAX_BUFFER_LEN = %d\n\r", HERMES_MAX_BUFFER_LEN);
   Serial.printf("Hermes size = %d\n\r", sizeof(Hermes_t));
 
-  // Hermes_init(&Hermes, 12, 8);
+  Hermes_init(&Hermes, 12, 8);
 
 }
 
